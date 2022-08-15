@@ -6,7 +6,7 @@ export const Career = () => {
     return (
         <div>
             <div className='p-4 m-2 mt-4 bg-slate-100 bg-opacity-50 font-merri'>
-                <div className='p-4 text-xl text-center border-y-2 border-stone-600 border-dashed'>
+                <div className='p-4 text-xl text-center border-y-2 border-stone-600 border-dashed space-y-2'>
                     <h1 className='text-3xl underline font-bold'>Potential Team Members</h1>
                     <p className='mb-2'>At Boozer's, we believe in providing superior service and the best cup of coffee for the Gulf Coast.</p>
                     <p>We are always looking for good people to join our team! If you are high-energy, like to work, and can provide the best customer service this might be the place for you!!!!</p>
@@ -14,10 +14,10 @@ export const Career = () => {
                     <p>We are always accepting applications- 17 years and older.  Must have reliable transportation.  We are looking for Long Term Employees</p>
                     <p className='mt-4'>Must have flexible work hours, including Saturdays</p>
                     <p className='mt-4 font-bold'>Boozer's Brew Hours</p>
-                    <em className='font-bold'>Monday-Friday 6am-4pm & Saturdays 7am-2pm</em>
+                    <em className='font-bold '>Monday-Friday 6am-4pm & Saturdays 7am-2pm</em>
                     <h2 className='mt-4 bg-stone-600 md:w-1/2 mx-auto text-boozerblue text-2xl font-bold'>Responsibilities</h2>
                     <div className='grid grid-cols-1 md:grid-cols-2'>
-                        <ul className='mt-2 text-justify list-disc p-4 m-1'>
+                        <ul className='mt-2 text-left list-disc p-4 m-1 space-y-2'>
                             <li>Greet customers in a friendly manner</li>
                             <li>Accurately take and fulfill customer orders</li>
                             <li>Create and Maintain a welcoming environment</li>
@@ -30,7 +30,7 @@ export const Career = () => {
                             <li>​Quick learner</li>
                         </ul>
 
-                        <ul className='mt-2 text-justify list-disc p-4 m-1'>
+                        <ul className='mt-2 text-left list-disc p-4 m-1 space-y-2'>
                             <li>Receive Inventory and let management know when items are low on stock</li>
                             <li>​Be Punctual</li>
                             <li>Work well with others, everyone must work together!!</li>
