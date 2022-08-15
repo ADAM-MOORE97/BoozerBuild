@@ -23,9 +23,9 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home/>}></Route>
-      <Route path="/Menu" element={<Menu/>}></Route>
-      <Route path="/Contact" element={<Contact/>}></Route>
-      <Route path="/Career" element={<Career/>}></Route>
+      <Route path="https://coffeeshopbrew.netlify.app/Menu" element={<Menu/>}></Route>
+      <Route path="https://coffeeshopbrew.netlify.app/Contact" element={<Contact/>}></Route>
+      <Route path="https://coffeeshopbrew.netlify.app/Career" element={<Career/>}></Route>
     </Routes>
     </BrowserRouter>
     {/* <Home/> */}
