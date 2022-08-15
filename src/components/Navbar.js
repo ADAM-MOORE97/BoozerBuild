@@ -15,7 +15,7 @@ export const Navbar = () => {
                   <img
                     className="m-0 mt-1 mb-1 h-12 md:mx-auto md:h-20 bg-white rounded-3xl p-0"
                     src={logo}
-                    alt="Workflow"
+                    alt="Boozer Logo"
                   />
                 </div>
                 <div className="hidden md:block">

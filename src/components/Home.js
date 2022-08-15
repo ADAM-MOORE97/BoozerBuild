@@ -19,7 +19,7 @@ export const Home = () => {
                     </p>
                 </div>
                 <div className='mx-auto  rounded p-4 m-1'>
-                    <img className='rounded-3xl object-fill' src={boozerloco} />
+                    <img className='rounded-3xl object-fill' src={boozerloco} alt="Boozer Brew Aerial View"/>
                 </div>
             </div>
             <Information/>
