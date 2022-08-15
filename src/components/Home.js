@@ -8,7 +8,7 @@ export const Home = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 m-2 mt-4 bg-slate-100 bg-opacity-50'>
                 <div className='mx-auto  rounded p-4 m-1'>
                     <div className='text-center font-merri'>
-                        <h1 className='text-2xl font-bold underline'>Boozer's Brew & a Cafe Too</h1>
+                        <h1 className='text-xl md:text-2xl font-bold underline'>Boozer's Brew & a Cafe Too</h1>
                         <em className='text-xs'>Established 2016</em>
                     </div>
                     <p className='text-md m-2 font-merri'>
