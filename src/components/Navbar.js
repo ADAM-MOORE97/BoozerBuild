@@ -6,8 +6,8 @@ export const Navbar = () => {
  
     const [isOpen, setIsOpen] = useState(false);
     return (
-      <div className=''>
-        <nav className="bg-stone-600 ">
+      <div className='sticky w-full top-0'>
+        <nav className="bg-stone-600">
           <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between">
               <div className="flex items-center">
